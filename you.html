@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<title>demoexample</title>
+<style>
+td
+{
+text-align:center;
+}
+#yellow
+{
+background-color:lightyellow;
+}
+#violet
+{
+background-color:violet;
+}
+#green
+{
+background-color:lightgreen;
+}
+</style>
+</head>
+<body>
+<center style="color:red">Demo<br>Example</center>
+<center>
+<table border="1">
+<tr>
+<td rowspan="3">Day</td>
+<td colspan="7">Seminar
+</tr>
+<tr>
+<td colspan="2"><b>Schedule</b></td>
+<td rowspan="2" colspan="5"><b>Topic</b></td>
+</tr>
+<tr><td><b>Begin</b></td><td><b>End</b></td></tr>
+<tr><td>Monday</td><td id="yellow">8:00am</td><td id="violet">5:00pm</td><td>Introduction to XML</td></tr>
+<tr><td rowspan="3">Tuesday</td><td id="yellow">8:00am</td><td id="yellow">11:00am</td>
+<td>Validity DTD and Relax NG</td></tr>
+<tr><td id="yellow">11:00am</td><td id="green">2:00pm</td><td>XPath</td></tr>
+<tr><td id="green">2:00pm</td><td id="violet">5:00pm</td><td>XSL Transformation</td></tr>
+<tr><td>Wednesday</td><td id="yellow">8:00am</td><td id="green">12:00pm</td><td>XSL Formatting objects</td></tr>
+</table>
+</center>
+
+</body>
+</html>
